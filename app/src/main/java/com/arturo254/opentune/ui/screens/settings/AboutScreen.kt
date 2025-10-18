@@ -283,64 +283,6 @@ fun AboutScreen(
 
         Spacer(Modifier.height(8.dp))
 
-        Card(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(16.dp),
-            shape = RoundedCornerShape(28.dp), // Bordes muy redondeados estilo MD3
-            elevation = CardDefaults.cardElevation(defaultElevation = 1.dp),
-            colors = CardDefaults.cardColors(
-                containerColor = MaterialTheme.colorScheme.surfaceVariant, // Color de fondo MD3
-            )
-        ) {
-            Row(
-                modifier = Modifier
-                    .padding(8.dp)
-                    .fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceEvenly,
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                IconButton(
-                    onClick = { uriHandler.openUri("https://github.com/Arturo254/OpenTune") }
-                ) {
-                    Icon(
-                        modifier = Modifier.size(20.dp),
-                        painter = painterResource(R.drawable.github),
-                        contentDescription = null
-                    )
-                }
-                IconButton(
-                    onClick = { uriHandler.openUri("https://www.paypal.me/OpenTune") }
-                ) {
-                    Icon(
-                        modifier = Modifier.size(20.dp),
-                        contentDescription = null,
-                        painter = painterResource(R.drawable.paypal)
-                    )
-                }
-
-                IconButton(
-                    onClick = { uriHandler.openUri("https://g.dev/Arturo254") }
-                ) {
-                    Icon(
-                        modifier = Modifier.size(20.dp),
-                        contentDescription = null,
-                        painter = painterResource(R.drawable.google)
-                    )
-                }
-
-
-                IconButton(
-                    onClick = { uriHandler.openUri("https://opentune.netlify.app/") }
-                ) {
-                    Icon(
-                        modifier = Modifier.size(22.dp),
-                        contentDescription = null,
-                        painter = painterResource(R.drawable.resource_public)
-                    )
-                }
-            }
-        }
         Spacer(Modifier.height(20.dp))
         Row(
             verticalAlignment = Alignment.Top,
