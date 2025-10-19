@@ -158,7 +158,7 @@ fun VersionCard(uriHandler: UriHandler) {
                         modifier = Modifier.size(20.dp)
                     )
                 },
-                onClick = { uriHandler.openUri("https://github.com/Arturo254/OpenTune/releases/latest") }
+                onClick = { uriHandler.openUri("https://github.com/Arturo254/Duna-s/releases/latest") }
             )
         )
     )
@@ -393,7 +393,7 @@ suspend fun downloadApk(
 ): Uri? = withContext(Dispatchers.IO) {
     try {
         val apkUrl =
-            "https://github.com/Arturo254/OpenTune/releases/download/$version/app-release.apk"
+            "https://github.com/Arturo254/Duna-s/releases/download/$version/app-release.apk"
 
         val downloadDir = context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS)
         val apkFile = File(downloadDir, "app-release-$version.apk")
@@ -403,8 +403,8 @@ suspend fun downloadApk(
         }
 
         val request = DownloadManager.Request(apkUrl.toUri())
-            .setTitle("Descargando OpenTune v$version")
-            .setDescription("Descargando actualización...")
+            .setTitle("Downloading Duna's v$version")
+            .setDescription("Downloading update...")
             .setDestinationUri(Uri.fromFile(apkFile))
             .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE)
 
@@ -486,7 +486,7 @@ fun installApk(context: Context, apkUri: Uri) {
 
 suspend fun checkForUpdates(): String? = withContext(Dispatchers.IO) {
     try {
-        val url = URL("https://api.github.com/repos/Arturo254/OpenTune/releases/latest")
+        val url = URL("https://api.github.com/repos/Arturo254/Duna-s/releases/latest")
         val connection = url.openConnection()
         connection.connect()
         val json = connection.getInputStream().bufferedReader().use { it.readText() }
@@ -728,14 +728,14 @@ fun SettingsScreen(
                 ) {
                     Icon(
                         painter = painterResource(R.drawable.opentune_monochrome),
-                        contentDescription = "Logo de OpenTune",
+                        contentDescription = "Logo de Duna's",
                         modifier = Modifier.fillMaxSize(),
                         tint = MaterialTheme.colorScheme.primary
                     )
                 }
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
-                    text = "OpenTune",
+                    text = "Duna's",
                     style = MaterialTheme.typography.headlineSmall,
                     fontWeight = FontWeight.SemiBold
                 )

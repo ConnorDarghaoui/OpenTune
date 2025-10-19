@@ -15,7 +15,7 @@ plugins {
 }
 
 
-rootProject.name = "OpenTune"
+rootProject.name = "Dunas"
 include(":app")
 include(":innertube")
 include(":kugou")

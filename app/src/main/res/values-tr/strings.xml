@@ -345,7 +345,7 @@
     <string name="backup_create_failed">Yedekleme oluşturulamadı</string>
     <string name="restore_failed">Yedekleme geri yüklenemedi</string>
     <string name="discord_integration">Discord ile entegre et</string>
-    <string name="discord_information">OpenTune, Discord hesabınızın durumunu ayarlamak için KizzyRPC kütüphanesini kullanır. Bu, Discord\'un TOS\'unun ihlali olarak değerlendirilebilecek Discord Gateway bağlantısını kullanmayı içerir. Ancak, bu nedenle kullanıcı hesaplarının askıya alındığı bilinen bir durum yoktur. Kendi riskinizle kullanın. OpenTunne yalnızca jetonunuzu çıkarır ve diğer her şey yerel olarak saklanır.</string>
+    <string name="discord_information">Duna\'s, Discord hesabınızın durumunu ayarlamak için KizzyRPC kütüphanesini kullanır. Bu, Discord\'un TOS\'unun ihlali olarak değerlendirilebilecek Discord Gateway bağlantısını kullanmayı içerir. Ancak, bu nedenle kullanıcı hesaplarının askıya alındığı bilinen bir durum yoktur. Kendi riskinizle kullanın. Duna\'s yalnızca jetonunuzu çıkarır ve diğer her şey yerel olarak saklanır.</string>
     <string name="dismiss">Yoksay</string>
     <string name="options">Seçenekler</string>
     <string name="preview">Ön izleme</string>
