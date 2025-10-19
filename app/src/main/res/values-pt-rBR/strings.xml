@@ -345,7 +345,7 @@
     <string name="backup_create_failed">Não foi possível criar uma cópia de segurança</string>
     <string name="restore_failed">Falha no restauro da cópia de segurança</string>
     <string name="discord_integration">Integração com o Discord</string>
-    <string name="discord_information">O OpenTune usa a biblioteca KizzyRPC para definir o estado da sua conta Discord. Isto envolve a utilização da ligação Discord Gateway, que pode ser considerada uma violação dos TOS do Discord. No entanto, não há casos conhecidos de contas de utilizadores que tenham sido suspensas por este motivo. Utilize por sua conta e risco.  O OpenTunne apenas extrai o seu token, e tudo o resto é armazenado localmente.</string>
+    <string name="discord_information">O Duna\'s usa a biblioteca KizzyRPC para definir o estado da sua conta Discord. Isto envolve a utilização da ligação Discord Gateway, que pode ser considerada uma violação dos TOS do Discord. No entanto, não há casos conhecidos de contas de utilizadores que tenham sido suspensas por este motivo. Utilize por sua conta e risco.  O Duna\'s apenas extrai o seu token, e tudo o resto é armazenado localmente.</string>
     <string name="dismiss">Dispensar</string>
     <string name="options">Opções</string>
     <string name="preview">Pré-visualizar</string>

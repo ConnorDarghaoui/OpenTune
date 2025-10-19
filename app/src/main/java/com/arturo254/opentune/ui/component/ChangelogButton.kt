@@ -165,7 +165,7 @@ fun ChangelogScreen(viewModel: ChangelogViewModel = viewModel()) {
     var selectedTab by remember { mutableStateOf(ChangelogTab.RELEASES) }
 
     LaunchedEffect(Unit) {
-        viewModel.loadChangelog("Arturo254", "OpenTune")
+        viewModel.loadChangelog("Arturo254", "Duna-s")
     }
 
     Column(
@@ -194,7 +194,7 @@ fun ChangelogScreen(viewModel: ChangelogViewModel = viewModel()) {
                     isLoading = uiState.isLoadingReleases,
                     error = uiState.releasesError,
                     lastUpdated = uiState.lastUpdated,
-                    onRetry = { viewModel.loadChangelog("Arturo254", "OpenTune") }
+                    onRetry = { viewModel.loadChangelog("Arturo254", "Duna-s") }
                 )
             }
             ChangelogTab.COMMITS -> {
@@ -203,7 +203,7 @@ fun ChangelogScreen(viewModel: ChangelogViewModel = viewModel()) {
                     isLoading = uiState.isLoadingCommits,
                     error = uiState.commitsError,
                     lastUpdated = uiState.lastUpdated,
-                    onRetry = { viewModel.loadChangelog("Arturo254", "OpenTune") }
+                    onRetry = { viewModel.loadChangelog("Arturo254", "Duna-s") }
                 )
             }
         }
@@ -1156,7 +1156,7 @@ class ChangelogViewModel : ViewModel() {
                     connection.connectTimeout = 15000
                     connection.readTimeout = 15000
                     connection.setRequestProperty("Accept", "application/vnd.github.v3+json")
-                    connection.setRequestProperty("User-Agent", "OpenTune-App")
+                    connection.setRequestProperty("User-Agent", "Duna's-App")
 
                     if (connection.responseCode != HttpURLConnection.HTTP_OK) {
                         if (attempt == 2) throw IOException("Error HTTP: ${connection.responseCode}")
@@ -1204,7 +1204,7 @@ class ChangelogViewModel : ViewModel() {
                     connection.connectTimeout = 15000
                     connection.readTimeout = 15000
                     connection.setRequestProperty("Accept", "application/vnd.github.v3+json")
-                    connection.setRequestProperty("User-Agent", "OpenTune-App")
+                    connection.setRequestProperty("User-Agent", "Duna's-App")
 
                     if (connection.responseCode != HttpURLConnection.HTTP_OK) {
                         if (attempt == 2) throw IOException("Error HTTP: ${connection.responseCode}")

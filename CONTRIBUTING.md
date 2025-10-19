@@ -1,8 +1,7 @@
 
-
 # Contribution Guide
 
-Thank you for your interest in contributing to **OpenTune**! This document outlines the guidelines and best practices for contributing to the project. By following these recommendations, you help us maintain high-quality code and a collaborative, inclusive community.
+Thank you for your interest in contributing to **Duna's**! This document outlines the guidelines and best practices for contributing to the project. By following these recommendations, you help us maintain high-quality code and a collaborative, inclusive community.
 
 > \[!NOTE]
 > Before you begin, make sure to read and understand our [Code of Conduct](CODE_OF_CONDUCT.md).
@@ -33,7 +32,7 @@ Thank you for your interest in contributing to **OpenTune**! This document outli
 
 ### Reporting Bugs
 
-We track bugs using [GitHub Issues](https://github.com/Arturo254/OpenTune/issues). Before creating a new issue, please search existing issues to see if the problem has already been reported. If you find a similar issue, feel free to add relevant information or insights as a comment.
+We track bugs using [GitHub Issues](https://github.com/Arturo254/Duna-s/issues). Before creating a new issue, please search existing issues to see if the problem has already been reported. If you find a similar issue, feel free to add relevant information or insights as a comment.
 
 When creating a new issue, include:
 
@@ -51,7 +50,7 @@ When creating a new issue, include:
 
 ### Suggesting Features
 
-We also handle feature suggestions through [GitHub Issues](https://github.com/Arturo254/OpenTune/issues). When suggesting a new feature:
+We also handle feature suggestions through [GitHub Issues](https://github.com/Arturo254/Duna-s/issues). When suggesting a new feature:
 
 * **Describe the problem** the feature is intended to solve
 * **Explain the solution** and how it would work
@@ -65,7 +64,7 @@ We also handle feature suggestions through [GitHub Issues](https://github.com/Ar
 
 ### Submitting Pull Requests
 
-Pull Requests (PRs) are the primary way to contribute code to OpenTune. To ensure your PR is effective and easy to review, follow these steps:
+Pull Requests (PRs) are the primary way to contribute code to Duna's. To ensure your PR is effective and easy to review, follow these steps:
 
 1. **Fork the repository** and create a feature branch from `main`.
 2. **Implement your changes** while following the [style guide](#style-guide).
@@ -193,8 +192,8 @@ To set up your local environment for contributing:
 4. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/Arturo254/OpenTune.git
-   cd OpenTune
+   git clone https://github.com/Arturo254/Duna-s.git
+   cd Duna-s
    ```
 5. **Build the project using Gradle**:
 
@@ -228,7 +227,7 @@ To contribute design ideas:
 
 ---
 
-Thank you for contributing to **OpenTune**! Your efforts help us build a better experience for all users.
+Thank you for contributing to **Duna's**! Your efforts help us build a better experience for all users.
 If you have any questions, feel free to open an issue labeled `question` or reach out directly to the development team.
 
 

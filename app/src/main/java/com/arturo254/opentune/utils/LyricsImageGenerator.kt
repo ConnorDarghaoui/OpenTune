@@ -60,7 +60,7 @@ object ComposeToImage {
     private fun buildContentValues(fileName: String): ContentValues = ContentValues().apply {
         put(MediaStore.MediaColumns.DISPLAY_NAME, "$fileName.png")
         put(MediaStore.MediaColumns.MIME_TYPE, "image/png")
-        put(MediaStore.MediaColumns.RELATIVE_PATH, Environment.DIRECTORY_PICTURES + "/OpenTune")
+        put(MediaStore.MediaColumns.RELATIVE_PATH, Environment.DIRECTORY_PICTURES + "/Dunas")
     }
 
     private fun saveToCache(context: Context, bitmap: Bitmap, fileName: String): Uri {

@@ -21,7 +21,7 @@ class DiscordRPC(
             smallText = song.artists.firstOrNull()?.name,
             buttons = listOf(
                 "Listen on YouTube Music" to "https://music.youtube.com/watch?v=${song.song.id}",
-                "Visit OpenTune" to "https://github.com/Arturo254/OpenTune"
+                "Visit Dunas" to "https://github.com/Arturo254/Duna-s"
             ),
             type = Type.LISTENING,
             since = System.currentTimeMillis(),

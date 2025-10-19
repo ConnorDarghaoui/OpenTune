@@ -391,7 +391,7 @@ fun EnhancedRichPresence(
                         )
                         Spacer(Modifier.width(8.dp))
                         Text(
-                            text = "Listening to OpenTune",
+                            text = "Listening to Duna's",
                             style = MaterialTheme.typography.labelLarge,
                             fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.onSurface
@@ -577,7 +577,7 @@ fun EnhancedRichPresence(
                         onClick = {
                             val intent = Intent(
                                 Intent.ACTION_VIEW,
-                                "https://github.com/Arturo254/OpenTune".toUri()
+                                "https://github.com/Arturo254/Duna-s".toUri()
                             )
                             context.startActivity(intent)
                         },
@@ -589,7 +589,7 @@ fun EnhancedRichPresence(
                             modifier = Modifier.size(18.dp)
                         )
                         Spacer(Modifier.width(8.dp))
-                        Text("OpenTune", maxLines = 1)
+                        Text("Duna's", maxLines = 1)
                     }
                 }
             }

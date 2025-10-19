@@ -24,7 +24,7 @@ import com.google.material.color.score.Score
 val DefaultThemeColor = Color(0xFF4285F4)
 
 @Composable
-fun OpenTuneTheme(
+fun DunasTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     pureBlack: Boolean = false,
     themeColor: Color = DefaultThemeColor,
